@@ -17,7 +17,7 @@
   npm config get registry
   ```
   
-  c.如果发现镜像源是“https://registry.npm.taobao.org”，则忽略下步骤
+  c.如果发现镜像源是“https://registry.npm.taobao.org” ,则忽略第d步骤
   
   d.使用以下命令进行依赖包镜像源设置：
   
@@ -30,18 +30,23 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 项目运行
+1.设置依赖包拉取镜像源：
 
-```
-npm run serve
-```
+  a.在文件夹“payCenter”中运行cmd;
+  
+  b.使用以下命令进行运行项目：
 
-### Compiles and minifies for production
+  ```
+  npm run serve
+  ```
+
+### 项目打包
 ```
 npm run build
 ```
 
-### Run your tests
+### 项目测试
 ```
 npm run test
 ```
