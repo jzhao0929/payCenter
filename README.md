@@ -1,8 +1,9 @@
 # made by jzhao.
 
-# demo
+# 项目启动步骤
 
-## Project setup
+## 项目启动
+1.
 ```
 npm install
 ```
