@@ -8,9 +8,7 @@
 2.将该项目拉取到本地文件夹“payCenter”中；
 
 3.设置依赖包拉取镜像源：
-
   a.在文件夹“payCenter”中运行cmd;
-  
   b.使用以下命令进行依赖包镜像源查看：
   ```
   npm config get registry
@@ -19,7 +17,7 @@
   ```
   npm config set registry https://registry.npm.taobao.org
   ```
-3.运行如下命令进行依赖包的拉取：
+4.运行如下命令进行依赖包的拉取：
 ```
 npm install
 ```
